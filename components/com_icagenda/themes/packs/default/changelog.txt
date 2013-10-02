@@ -1,0 +1,157 @@
+Default Theme Pack
+
+@ New Feature | ! important | + added line | - removed line | ~ changed
+
+
+v1.x
+------------------------------------
+Changelog of ic_rounded Theme Pack is currently not updated until a new version optimized for Joomla3 will be ready.
+
+v1.7 (2013-07-26)
+------------------------------------
+* default_event.php :
+	100	+	added margin and padding 0px - set width to 'auto'
+	20	-	added margin and padding 0px - set width to 'auto'
+
+	! line 178			: added if condition to display or not participant list (global option)
+
+
+v1.6 (2013-05-21)
+------------------------------------
+* default_component.css :
+	~ line 19			: added margin and padding 0px - set width to 'auto'
+	~ line 48			: added "margin:5px 0;" and edit padding
+	~ line 97			: added "color:#333333;"
+
+* default_event.php, default_list.php, default_registration.php :
+	! line 12			: removed div id : id="icagenda"
+
+
+v1.5.9 (2013-05-07)
+------------------------------------
+* default_module.css :
+	+ line 133			: added "color:#FFFFFF;"
+	+ line 134			: new line Text color 'no image' if background is bright
+
+* default_day.php :
+	~ line 29			: added " '.$bgcolor.'" to class "noimg"
+
+
+v1.5.8 (2013-05-03)
+------------------------------------
+* default_component.css :
+	~ line 40			: added "text-decoration:none;"
+	~ line 42			: added "cursor:pointer;"
+	~ line 77			: added "text-decoration:none;"
+	~ line 82			: added "text-decoration:none;"
+
+* default_module.css :
+	+ line 137 to 140	: new lines
+
+
+v1.5.7 (2013-04-29)
+------------------------------------
+* default_component.css :
+	~ line 19			: changed to "width:auto; margin:0 1%;"
+
+* default_module.css :
+	~ line 130			: changed max-width to "width:100px;"
+
+* default_day.php :
+	~ line 31 to 49		: Adding Info to the tool-tip (city, country, place, short description)
+
+
+v1.5.6 (2013-04-11)
+------------------------------------
+NOTE: new numbers for all lines in all php files since 1.5.6!
+
+* default_module.css :
+	~ line 19			: added "margin:auto !important;"
+	~ line 85			: changed line-height to "height:24px;"
+	~ line 97,100 & 106	: added "width:auto !important;"
+	~ line 100			: removed "line-height:26px;"
+
+
+v1.5.5 (2013-04-09)
+------------------------------------
+* default_component.css :
+	~ line 49			: added "background:rgba(221,221,221,0.5);"
+
+* default_module.css :
+	~ line 81 to 106	: edit Navigator Arrows Css (compatible with iCagenda 2.1.5 and later)
+
+
+v1.5.4 (2013-04-05)
+------------------------------------
+* default_component.css :
+	~ line 49			: added "background:rgba(221,221,221,0.5);"
+	~ line 66			: added "float:left;"
+	- line 122			: removed .content class ,line 122 from 1.5.3
+	~ line 125			: added important to "padding:6px !important;"
+	~ line 181			: min-width changed to "auto"
+	~ line 183			: added "padding:0 !important;"
+
+* default_event.php :
+	@ line 112			: Replaced "desc" by "description" (Triggering content plugins in description text)
+
+* default_list.php :
+	- line 56			: Removed line
+
+
+v1.5.3 (2013-04-01)
+------------------------------------
+* default_module.css :
+	~ line 100			: added "text-transform:uppercase;"
+
+
+v1.5.2 (2013-03-21)
+------------------------------------
+* default_day.php :
+	~ line 5			: Edit and changes of the data names (better coding for some site template, color functions, when mouse over days in calendar, can be edit in css files)
+
+* default_event.php :
+	~ line 92			: Replaced "email" by "emailLink" (email cloacking)
+
+
+v1.5.1 (2013-03-14)
+------------------------------------
+* default_event.php :
+	~ line 15			: added missing ";" in arrow code "&#9668;"
+
+
+v1.5 (2013-03-11)
+------------------------------------
+* default_component.css
+	+ line 113 to 119	: added new lines, css classes information table
+	+ line 121 to 130	: added new lines, css classes list of participants slide
+	+ line 132 to 138	: added new lines, css classes list of participants "Full"
+
+* default_module.css
+	- line 19 		: removed "background:none !important;"
+
+* default_event.php :
+	@ line 144 to 148	: added new line, data $item->participantListTitle; and $item->registeredUsers
+
+* IMAGES Folder :
+	+ pluslist.png
+	+ minuslist.png
+
+
+v1.4 (2013-02-07)
+------------------------------------
+* default_calendar.php :
+	! line 11 		: removed entire line " <div class="iccalendar"> "
+	! line 13 		: removed entire line " </div> "
+* default_module.css :
+	- line 100 		: removed '#' before color;
+
+
+v1.3 (2013-01-29)
+------------------------------------
+* default_day.php :
+	+ line 5 		: removed href="#"
+* default_module.css :
+	! lines 73 & 74	: new lines
+	+ line 118 		: add cursor:pointer;
+
+

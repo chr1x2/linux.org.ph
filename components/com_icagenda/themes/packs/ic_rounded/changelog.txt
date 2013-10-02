@@ -1,0 +1,166 @@
+ic_rounded Theme Pack
+
+@ New Feature | ! important (bug fix) | + added line | - removed line | ~ changed
+
+
+v1.x
+------------------------------------
+Changelog of ic_rounded Theme Pack is currently not updated until a new version optimized for Joomla3 will be ready.
+
+v1.6 (2013-05-21)
+------------------------------------
+* ic_rounded_component.css :
+	~ line 19			: added margin and padding 0px - set width to 'auto'
+	~ line 48			: added "margin:5px 0;"
+
+* ic_rounded_event.php, ic_rounded_list.php, ic_rounded_registration.php :
+	! line 12			: removed div id : id="icagenda"
+
+
+v1.5.9 (2013-05-07)
+------------------------------------
+* ic_rounded_module.css :
+	~ line 133			: added "color:#FFFFFF;"
+	+ line 134			: new line Text color 'no image' if background is bright
+
+* ic_rounded_day.php :
+	~ line 10			: added " '.$bgcolor.'" to class "noimg"
+
+
+v1.5.8 (2013-05-03)
+------------------------------------
+* ic_rounded_component.css :
+	~ line 40			: added "text-decoration:none;"
+	~ line 42			: added "cursor:pointer;"
+	~ line 48 & 49		: changed background colors
+	~ line 69			: changed width to "width:72%;"
+	+ line 70			: New line, event title/category header right
+	~ line 71			: changed entire line
+	~ line 73			: added "margin:0; padding:0px;"
+	~ line 78			: added "text-align:right; margin:0; padding:0px;"
+	~ line 97			: removed "background:none; color:#999999;"
+	~ line 100			: removed "background:none; color:#555555;"
+	~ line 104			: added "padding:0px;"
+	~ line 107			: added "padding:0px; margin:0px;"
+	~ line 114 to 122	: removed color
+	~ line 124			: added "color:#333333;"
+	~ line 127			: added "color:#333333;" and changed background
+	~ line 139			: added "text-decoration:none !important;"
+	~ line 191			: added "color:#333;"
+	~ line 199			: added "color:#333;"
+
+* default_module.css :
+	~ line 114			: added "color:#333;"
+
+* ic_rounded_list.php
+	- line 39 to 58		: New lines, title and category
+
+
+v1.5.7 (2013-04-29)
+------------------------------------
+* default_module.css :
+	~ line 130			: changed max-width to "width:100px;"
+
+* default_day.php :
+	~ line 17 to 35		: Adding Info to the tool-tip (city, country, place, short description)
+
+
+v1.5.6 (2013-04-11)
+------------------------------------
+* ic_rounded_module.css :
+	~ line 19			: changed margin-right to "margin:auto !important;"
+	~ line 85			: changed line-height to "height:24px;"
+	~ line 97,100 & 106	: added "width:auto !important;"
+	~ line 100			: removed "line-height:26px;"
+
+
+v1.5.5 (2013-04-09)
+------------------------------------
+* ic_rounded_module.css :
+	~ line 81 to 106	: edit Navigator Arrows Css (compatible with iCagenda 2.1.5 and later)
+
+
+v1.5.4 (2013-04-05)
+------------------------------------
+* ic_rounded_component.css :
+	~ line 211			: min-width changed to "auto"
+	~ line 183			: added "padding:0 !important;"
+
+* ic_rounded_event.php :
+	@ line 76			: Replaced "desc" by "description" (Triggering content plugins in description text)
+
+
+v1.5.3 (2013-04-01)
+------------------------------------
+* ic_rounded_module.css :
+	~ line 86			: added "text-transform:uppercase;"
+
+
+v1.5.2 (2013-03-21)
+------------------------------------
+* ic_rounded_day.php :
+	~ line 5			: Edit and changes of the data names (better coding for some site template, color functions, when mouse over days in calendar, can be edit in css files)
+
+* ic_rounded_event.php :
+	~ line 105			: Replaced "email" by "emailLink" (email cloacking)
+
+
+v1.5.1 (2013-03-14)
+------------------------------------
+* ic_rounded_event.php :
+	~ line 15			: added missing ";" in arrow code "&#9668;"
+
+
+v1.5 (2013-03-11)
+------------------------------------
+* ic_rounded_module.css
+	- line 19 			: removed "background:none !important;"
+	! line 71			: fixed - removed ";" before !important
+
+* ic_rounded_component.css
+	+ line 103			: added " !important"
+	+ line 143 to 149	: added new lines, css classes information table
+	+ line 151 to 159	: added new lines, css classes list of participants slide
+	+ line 161 to 167	: added new lines, css classes list of participants "Full"
+	~ line 102			: added style from ic_rounded_event.php
+	~ line 58			: added style from ic_rounded_event.php
+	+ line 60 to 61		: added classes ".day" and ".noimage"
+	+ line 77 to 78		: added classes ".category" and ".nextdate"
+
+* ic_rounded_event.php
+	~ line 83 to 126	: converted styles to classes, added in component.css
+	@ line 162 to 166	: added new line, data $item->participantListTitle; and $item->registeredUsers
+	+ line 84			: added cellspacing="0"
+	- line 27			: removed style css, adding to class ".cat" line 102 in component.css
+
+* ic_rounded_list.php
+	- line 21			: removed style css, adding to class ".box_date" line 58 in component.css
+	- line 23 & 32		: converted styles to classes ".day", added in component.css
+	- line 42			: converted styles to classes ".category", added in component.css
+	- line 46			: converted styles to classes ".nextdate", added in component.css
+
+* ic_rounded_registration.php
+	- line 32			: converted styles to classes ".category", added in component.css
+
+* IMAGES Folder :
+	+ pluslist.png
+	+ minuslist.png
+
+
+v1.4 (2013-02-07)
+------------------------------------
+* ic_rounded_calendar.php
+	! line 11			: removed entire line " <div class="iccalendar"> "
+	! line 13			: removed entire line " </div> "
+
+
+v1.3 (2013-01-29)
+------------------------------------
+* ic_rounded_day.php
+	+ line 5			: removed href="#"
+
+* ic_rounded_module.css
+	! lines 73 & 74		: new lines
+	+ line 111			: added cursor:pointer;
+
+
