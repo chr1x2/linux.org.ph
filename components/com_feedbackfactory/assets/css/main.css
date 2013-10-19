@@ -1,0 +1,251 @@
+dl.tabs {
+    margin: 10px 0 0 !important;
+}
+
+dl.tabs dt.open {
+    /*background: none repeat scroll 0 0 #002255; !important;*/
+    background: #687f8c !important; 
+    color: #fff !important;
+}
+
+dl.tabs dt.open a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+dl.tabs a:link, dl.tabs a:visited {
+    color: #666;
+    text-decoration: none;
+}
+
+div.current {
+    padding: 5px 5px 3px 10px !important;
+}
+
+/** Date **/
+.feedbackfactory-calendar { border-right: 1px dotted #999999; padding-right: 10px; margin-right: 10px; }
+.feedbackfactory-calendar div { text-align: center !important; font-family: Verdana; }
+.feedbackfactory-month, .blogfactory-day-name { text-transform: uppercase; }
+.feedbackfactory-month { font-weight: bold; line-height: 10px; }
+.feedbackfactory-day { font-weight: bold; font-size: 20px; padding: 5px 0px; }
+.feedbackfactory-year, .feedbackfactory-day-name { font-size: 10px; color: #666666; }
+.feedbackfactory-day-name { line-height: 5px; letter-spacing: 2px; }
+
+/** comments **/
+.feedbackfactory-comment-header 	{ background-color: #eeeeee; padding: 5px 5px; }
+.feedbackfactory-comment-content	{ padding: 5px 5px; }
+.feedbackfactory-comment 			{ margin-bottom: 8px; border: 1px solid #dddddd; float: left; clear: both; width: 100%; }
+.feedbackfactory-comment-user 		{ padding-right: 5px; }
+.comments 							{ padding-left: 20px; }
+
+/** icons **/
+.feedbackfactory-icon 				{ padding: 1px 0px 1px 20px; background-repeat: no-repeat; }
+.feedbackfactory-button 				{ padding: 1px 0px 1px 2px; background-repeat: no-repeat; }
+.feedbackfactory-folder_page_red   	{ background-image: url(../images/page_red.png); }
+.feedbackfactory-folder_page    		{ background-image: url(../images/box.png); }
+.feedbackfactory-page_edit      		{ background-image: url(../images/page_white_edit.png); }
+.feedbackfactory-lock          			{ background-image: url(../images/lock.png); }
+.feedbackfactory-loader 				{ background-image: url(../images/ajax-loader.gif);}
+.feedbackfactory-user            			{ background-image: url(../images/user_comment.png); }
+.feedbackfactory-date            			{ background-image: url(../images/calendar_view_day.png); }
+.feedbackfactory-comments        		{ background-image: url(../images/comments.png); }
+.feedbackfactory-bullet            		{ background-image: url(../images/bullet_black.png); vertical-align: middle; }
+.feedbackfactory-status            		{ background-image: url(../images/wrench.png); }
+
+.feedbackfactory-title 	{  width: 99%; padding: 0px; font-size: 15px !important; font-weight: normal; }
+.save-button 			{ border: 1px solid #6d6d6d; background-color: #EEE; padding: 5px 10px; color: #7fc97b; font-weight: bold; }
+.feedbackfactory-error 	{ border: 1px solid #ff0000; }
+
+label {
+	font-size:13px;
+	font-weight: bold;
+	color:#6e6e6e;
+	padding: 5px 5px;
+}
+
+legend {
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding-left: 0;
+    text-align: left;
+}
+
+/*This css contains code for the loading image in the right of the textbox */
+.faqsearch {
+    /*background: url("../images/faqsearch_2.png") no-repeat scroll 0 0 transparent;*/
+    margin: 0 0 1px;
+    padding: 10px 2px;
+    width: 430px;
+}
+input:focus {
+ border: 1px grey solid !important;
+}
+
+.faqsearchinputbox {
+    background: url("../images/textinputbg.gif") repeat-x scroll 0 0 #FFFFFF;
+    border: 0px solid #DDDDDD;
+    margin: 0 3px;
+}
+
+.faqsearchinputbox input {
+	font-size:15px;
+	color:#6e6e6e;
+	padding:7px;
+	border:none;
+	background:url("../images/ajax-loader_static.png") no-repeat right 50%;
+	width:405px;
+}
+/*The css class below contains the animated loading image .this will be added on the dom later with Jquery*/
+.faqsearchinputbox input.loading {
+	background:url("../images/ajax-loader.gif") no-repeat right 50%;
+}
+
+h3.title { 
+	font-size: 0.95em;
+	font-weight: bold;
+	margin-top: 1px !important;
+	margin-bottom: 4px !important;
+	margin-left: 5px;
+	color: #999;
+}
+
+.title a:link, .title a:visited {
+	color: #666 !important;
+}
+
+.vote a:link, .vote a:visited {
+	color: #666 !important;
+}
+
+.count a:link, .count a:visited {
+	color: #666 !important;
+}
+
+.bottom a:link, .bottom a:visited {
+	color: #637b88;
+}
+
+.title a:hover, .title a:active, .title a:focus {
+    background: none repeat scroll 0 0 #666 !important;
+    color: #FFFFFF !important;
+}
+
+.votes a:hover, .votes a:active, .votes a:focus {
+    background: none repeat scroll 0 0 #666 !important;
+    color: #FFFFFF !important;
+}
+
+.count a:hover, .count a:active, .count a:focus {
+    background: none repeat scroll 0 0 #666 !important;
+    color: #FFFFFF !important;
+}
+
+.bottom a:hover, .bottom a:active, .bottom a:focus {
+    background: none repeat scroll 0 0 #666 !important;
+    color: #FFFFFF !important;
+}
+
+.votes {
+	border-bottom: 1px dotted #ddd;
+	margin-bottom: 7px;
+	padding-bottom: 12px;
+	max-width: 650px;
+	clear: left;
+}
+.votes .message_body { overflow: hidden; }
+
+.votes .left_img {
+	float: left;
+	margin-right: 10px;
+	width: 50px;
+	display: block;
+	
+}
+
+.votes .left_img .count { 
+	background: url("../images/button_blue2.gif") no-repeat scroll 0 0 transparent; 
+	color: #444;
+	display: block;
+	font-size: 17px;
+	font-weight: bold;
+	height: 34px;
+	padding: 4px 0;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	width: 50px;
+}
+
+.votes .left_img .vote {
+	background: url("../images/button_blue2.gif") no-repeat scroll 0 -45px transparent; 
+	color: #fff;
+	display: block;
+	font-size: 11px;
+	height: 16px;
+	padding: 0;
+	line-height: 16px;
+	margin-top: 3px;
+	text-align: center;
+	text-decoration: none;
+	width: 50px;
+	cursor: pointer;
+}
+
+.votes .left_img .count span.t {
+	display: block;
+	font-size: 10px;
+	left: 10px;
+	line-height: 10px;
+	position: absolute;
+	top: 23px;
+}
+
+.votes .right {
+	float: right;
+	margin-left: 10px;
+	width: 80px;
+}
+
+.right-button {
+	margin-right: 10px;
+}
+
+.right-button .left {
+	margin: 0 !important;
+	width: auto !important;
+}
+
+.right-button .right {
+	margin: 0 !important;
+	width: auto !important;
+}
+
+.message {
+	color: #666;
+	font-size: 95%;
+	white-space: normal;
+}
+
+.bottom {
+	clear: left;
+	font-size: 12px;
+	overflow: hidden;
+	color: #637b88;
+	padding: 6px 0 4px 0;
+}
+
+.cbFullPict {
+    border: 1px solid #CCCCCC;
+    margin: 3px;
+    padding: 1px;
+}
+
+#accepted-feedbacks .pagination {
+    margin: 10px 0;
+    padding: 10px 0 10px 0px;
+    clear: both;
+    color: red;
+
+}

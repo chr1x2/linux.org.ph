@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.0" method="upgrade">
+	<name>Feedbackfactory</name>
+	<packagename>feedbackfactory</packagename>
+	<author>The Factory</author>
+	<creationDate>September 2013</creationDate>
+	<copyright>SKEPSIS Consult SRL</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@thefactory.ro</authorEmail>
+	<authorUrl>www.thefactory.ro</authorUrl>
+	<version>2.0.0</version>
+	<url>http://www.thefactory.ro</url>
+	<packager>thefactory</packager>
+	<packagerurl></packagerurl>
+	<description>FeedbackFactory Installer.</description>
+    <scriptfile>install.package.php</scriptfile>
+	<files>
+		<file type="component" id="com_feedbackfactory">feedbackfactory_2.0.0.zip</file>
+		<file type="module" id="mod_feedback_categories" client="site">mod_feedback_categories.zip</file>
+		<file type="module" id="mod_feedback_statuses" client="site">mod_feedback_statuses.zip</file>
+	</files>
+</extension>

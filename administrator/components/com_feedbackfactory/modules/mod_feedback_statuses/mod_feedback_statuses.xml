@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<extension type="module" version="3.0" client="site" method="upgrade">
+  <name>Feedback Factory Statuses</name> 
+  <author>The Factory</author> 
+  <creationDate>September 2013</creationDate> 
+  <copyright>SKEPSIS Consult SRL</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <authorEmail>contact@thefactory.ro</authorEmail> 
+  <authorUrl>http://www.thefactory.ro</authorUrl> 
+  <version>2.0.0</version> 
+  <description>Feedback Factory Statuses Module</description> 
+  <files>
+	<filename module="mod_feedback_statuses">mod_feedback_statuses.php</filename> 
+	<folder>tmpl</folder> 
+	<folder>elements</folder> 
+	<filename>index.html</filename>
+	<filename>mod_feedback_statuses.xml</filename>
+  </files>
+ 
+  <languages>
+  	<language tag="en-GB">en-GB.mod_feedback_statuses.ini</language> 
+  </languages>
+  <config>
+ 	<fields name="params">
+ 		<fieldset name="settings" label="Module Parameters" description="Configure Module">
+		  <field name="itemid" type="itemid" default="0" label="Itemid" /> 
+		  <field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" /> 
+  		</fieldset>
+  	</fields>
+  </config>
+</extension>

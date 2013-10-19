@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="FEEDBACK_VIEW_DEFAULT_MOSTCOMMENTED" option="com_feedbackfactory_mostcommented_view_default_option">
+		<help
+			key="JHELP_MENUS_MENU_ITEM_FEEDBACKFACTORY_MOSTCOMMENTED"
+		/>
+		<message>
+			<![CDATA[com_feedbackfactory_mostcommented_view_default_desc]]>
+		</message>
+	</layout>
+
+	<fields name="request">
+		<fieldset name="request">
+			<field name="task" type="text" extension="com_feedbackfactory" required="true" default="mostcommented" readonly="true" />
+		</fieldset>
+	</fields>
+
+</metadata>

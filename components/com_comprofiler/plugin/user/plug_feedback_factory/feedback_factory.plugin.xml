@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cbinstall version="1.0.0" type="plugin" group="user">
+	<name>Feedback Factory Plugin - My Feedbacks</name>
+	<author>The Factory</author>
+	<creationDate>September 2013</creationDate>
+	<copyright>SKEPSIS Consult SRL</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@thefactory.ro</authorEmail>
+	<authorUrl>www.thefactory.ro</authorUrl>
+	<version>2.0.0</version>
+	<description>
+		Tab Plugin for displaying User Feedbacks from Feedback Factory
+	</description>
+	<files>
+		<filename plugin="feedback_factory.plugin">feedback_factory.plugin.php</filename>
+	</files>
+	<params>
+		
+	</params>
+	<tabs>
+		<tab name="My Feedbacks" description="My feedbacks tab" class="getmyfeebacksTab" fields="0" position="cb_tabmain" displaytype="tab">
+			<params>
+			</params>
+			<fields>
+			</fields>
+		</tab>
+	</tabs>
+	<install>
+		<queries>
+		</queries>
+	</install>
+	<uninstall>
+	</uninstall>
+</cbinstall>
